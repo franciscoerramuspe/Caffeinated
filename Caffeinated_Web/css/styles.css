@@ -627,19 +627,19 @@ progress {
   color: #6c757d;
 }
 
-.container,
-.container-fluid,
+.container
+/*.container-fluid,
 .container-xxl,
 .container-xl,
 .container-lg,
 .container-md,
-.container-sm {
+.container-sm */ {
   max-width: 100%;
   max-height: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
+  /*padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto;*/
 }
 
 @media (min-width: 576px) {
@@ -10312,6 +10312,37 @@ textarea.form-control-lg {
     margin-right: 0 !important;
   }
 
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+    #myTable th, #myTable td {
+        text-align: left;
+        padding: 12px;
+    }
+
+    #myTable tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+        #myTable tr.header, #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+
   .me-xl-1 {
     margin-right: 0.25rem !important;
   }
@@ -11367,8 +11398,10 @@ html {
   object-fit: cover;
 }
 #navbarimg {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 13%;
+  max-width: 13%;
+  text-align: left;
+  
 }
 #mainNav .navbar-brand {
   color: var(--bs-blue);
@@ -11391,6 +11424,10 @@ html {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+}
+
+#navbarResponsive {
+  position:absolute; left:1000px; top:30px;
 }
 
 @media (min-width: 992px) {
@@ -11417,6 +11454,7 @@ html {
     font-size: 1.5em;
   }
 }
+
 .form-floating input.form-control,
 .form-floating textarea.form-control {
   font-size: 1.5rem;
@@ -11511,4 +11549,10 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.searchbar-icon {
+  max-width: 30px;
+  max-height: 30px;
+  float: right;
 }
