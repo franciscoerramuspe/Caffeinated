@@ -1192,8 +1192,7 @@ progress {
   }
 
   .col-md-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
+    width:320px; height:600px; overflow:auto;"
   }
 
   .col-md-9 {
@@ -7094,6 +7093,7 @@ textarea.form-control-lg {
 
 .justify-content-center {
   justify-content: center !important;
+  max-height: 40%;
 }
 
 .justify-content-between {
@@ -10311,6 +10311,7 @@ textarea.form-control-lg {
   .me-xl-0 {
     margin-right: 0 !important;
   }
+  
 
   #myInput {
     background-image: url('/css/searchicon.png');
@@ -10325,7 +10326,9 @@ textarea.form-control-lg {
 
 #myTable {
     border-collapse: collapse;
-    width: 100%;
+    width: 320px;
+    height: 80px;
+    overflow: auto;
     border: 1px solid #ddd;
     font-size: 18px;
 }
@@ -10337,6 +10340,7 @@ textarea.form-control-lg {
 
     #myTable tr {
         border-bottom: 1px solid #ddd;
+        
     }
 
         #myTable tr.header, #myTable tr:hover {
