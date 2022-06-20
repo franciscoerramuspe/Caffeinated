@@ -121,7 +121,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h2, .h2 {
     font-size: 2rem;
   }
@@ -130,7 +130,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h3, .h3 {
     font-size: 1.75rem;
   }
@@ -139,7 +139,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h4, .h4 {
     font-size: 1.5rem;
   }
@@ -410,7 +410,7 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   legend {
     font-size: 1.5rem;
   }
@@ -498,7 +498,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-1 {
     font-size: 5rem;
   }
@@ -509,7 +509,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-2 {
     font-size: 4.5rem;
   }
@@ -520,7 +520,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-3 {
     font-size: 4rem;
   }
@@ -531,7 +531,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-4 {
     font-size: 3.5rem;
   }
@@ -542,7 +542,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-5 {
     font-size: 3rem;
   }
@@ -553,7 +553,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-6 {
     font-size: 2.5rem;
   }
@@ -642,17 +642,17 @@ progress {
   margin-left: auto;*/
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .container-sm, .container {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
@@ -1192,7 +1192,7 @@ progress {
   }
 
   .col-md-8 {
-    width:320px; height:600px; overflow:auto;"
+    width:320px; height:600px; overflow:auto;
   }
 
   .col-md-9 {
@@ -1536,7 +1536,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .col-xl {
     flex: 1 0 0%;
   }
@@ -3648,7 +3648,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   .dropdown-menu-xl-start {
     --bs-position: start;
   }
@@ -5226,7 +5226,7 @@ textarea.form-control-lg {
     border-left-width: 0.125rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .list-group-horizontal-xl {
     flex-direction: row;
   }
@@ -5250,7 +5250,7 @@ textarea.form-control-lg {
     border-left-width: 0.125rem;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 300px) {
   .list-group-horizontal-xxl {
     flex-direction: row;
   }
@@ -5626,7 +5626,7 @@ textarea.form-control-lg {
     max-width: 800px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6574,7 +6574,7 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .sticky-xl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -9933,7 +9933,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .float-xl-start {
     float: left !important;
   }
@@ -10323,7 +10323,19 @@ textarea.form-control-lg {
     border: 1px solid #ddd;
     margin-bottom: 12px;
 }
-
+  #myButton {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+.td, .img{
+  
+}
 #myTable {
     border-collapse: collapse;
     width: 320px;
@@ -10332,10 +10344,13 @@ textarea.form-control-lg {
     border: 1px solid #ddd;
     font-size: 18px;
 }
-
+#myTable .img {
+  background-size: 100%;
+}
     #myTable th, #myTable td {
         text-align: left;
         padding: 12px;
+        background-size: 100%;
     }
 
     #myTable tr {
@@ -10619,7 +10634,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 300px) {
   .float-xxl-start {
     float: left !important;
   }
@@ -11270,7 +11285,7 @@ textarea.form-control-lg {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .fs-1 {
     font-size: 2.5rem !important;
   }
