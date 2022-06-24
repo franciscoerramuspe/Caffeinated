@@ -10311,6 +10311,57 @@ textarea.form-control-lg {
   .me-xl-0 {
     margin-right: 0 !important;
   }
+<<<<<<< Updated upstream:Caffeinated_Web 2/css/styles.css
+=======
+  
+
+  #myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+  #myButton {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 2.25rem;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 320px;
+    height: 80px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+#myTable .img {
+  background-size: 100%;
+}
+    #myTable th, #myTable td {
+        text-align: left;
+        padding: 12px;
+        background-size: 100%;
+    }
+
+    #myTable tr {
+        border-bottom: 1px solid #ddd;
+        
+    }
+
+        #myTable tr.header, #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+>>>>>>> Stashed changes:Caffeinated_Web/css/styles.css
 
   .me-xl-1 {
     margin-right: 0.25rem !important;
